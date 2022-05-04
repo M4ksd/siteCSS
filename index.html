@@ -1,1 +1,88 @@
+﻿<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Круть</title>
+    <style>
+        table {
+            height: 100%;
+            width:100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 0px;
+            border-collapse: collapse;
+            margin: 0 auto;
+           
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+        table {
+            width: 100%;
+           
+        }
+
+        td:first-child,
+        td:last-child {
+            white-space: nowrap;
+        }
+
+        td:first-child {
+            text-align: left;
+        }
+
+        td:last-child {
+            text-align: left;
+        }
+
+        td:nth-child(2) {
+            width: 75%;
+            height:75%;
+          
+        }
+        @font-face {
+            font-family: Pompadur; /* Гарнитура шрифта */
+            src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+        }
+
+        h1 {
+            font-family: Pompadur, 'Comic Sans MS', cursive;
+        }
+    </style>
+</head>
+<body>
+    <table class="table" border="1">
+        
+        <tbody>
+            <tr>
+                <th colspan=" 2" bgcolor="LightSeaGreen"><h1> КРУТИЙ САЙТ</h1></th>
+            </tr>
+            <tr>
+                <td> Математика</td>
+                <td> 22</td>
+            </tr>
+           
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan=" 2">Підсумок: 106</th>
+            </tr>
+
+        </tfoot>
+
+    </table>
+</body>
+</html>
