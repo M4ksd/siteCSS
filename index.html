@@ -5,6 +5,16 @@
     <meta charset="utf-8" />
     <title>Круть</title>
     <style>
+        ul {
+            padding-left:20px;
+        }
+        #table td {
+            vertical-align: top;
+        }
+        body {
+            background: #C0C0C0; /* Цвет фона */
+            color: #2F4F4F
+        }
         table {
             height: 100%;
             width:100%;
@@ -14,6 +24,7 @@
             padding: 0px;
             border-collapse: collapse;
             margin: 0 auto;
+       
            
         }
 
@@ -31,7 +42,7 @@
 
         table {
             width: 100%;
-           
+          
         }
 
         td:first-child,
@@ -45,6 +56,7 @@
 
         td:last-child {
             text-align: left;
+           
         }
 
         td:nth-child(2) {
@@ -69,10 +81,20 @@
             float: right; /* Выравнивание по правому краю  */
             margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
         }
+        td {
+            padding: 5px; /* Поля в ячейках */
+            vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+        }
+        .layer3 {
+            width: 590px; /* Ширина */
+            padding: 10px; /* Поля */
+            background: #fc0; /* Колір фона */
+            border: 5px dashed black; /* Параметри рамки*/
+        }
     </style>
 </head>
 <body>
-    <table class="table" border="1">
+    <table class="table" border="3">
         
         <tbody>
             <tr>
@@ -80,27 +102,47 @@
                 </h1>
                 </tr>
             <tr>
-                <td> <ul>
-    <span style="font-family:Courier, monospace">  <h2><em>Навігаційне меню сайта</em></h2></span>
-    <li>
-        <font color="red">  <em> <a href="index1.html" target="_blank">Форма</a></em></font>
-</li>
-    <li>
-        <font color="red"> <em> <a href="index2.html" target="_blank">Результати сесії</a></em></font>
-</li>
-    <li>Математика</li>
-    <li>Інженерна графіка</li>
+                <td > 
+    <h2><em>Навігаційне меню сайта</em></h2>
+    <ul>
+        <li>
+            <font color="red">  <em> <a href="index1.html" target="_blank">Форма</a></em></font>
+        </li>
+        <br>
+        <li>
+            <font color="red"> <em> <a href="index2.html" target="_blank">Результати сесії</a></em></font>
+        </li>
+        <br>
+        <li>
+            <font color="red">  <em> <a href="index3.html" target="_blank">Картинки та силки</a></em></font>
+        </li>
+        <br>
+        <li>Інженерна графіка</li>
+        <hr color="#000080" size="3px" />
+    </ul>
+</td>
+                <td>
+                    <h2>Найпопулярніші мови програмування:</h2>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">JavaScript</a></li>
+                        <li><a href="https://itproger.com/course/csharp" target="_blank">C#</a></li>
+                        <li><a href="https://vertex-academy.com/tutorials/ru/samouchitel-po-java-s-nulya/" target="_blank">Java</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/python/lessons/hello-world" target="_blank">Python</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/php" target="_blank">PHP</a></li>
 
-</ul>
+                    </ul>
+                    <div class="layer3"><iframe width="560" height="315" src="https://www.youtube.com/embed/e30tRHsgPv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          
+
+
                 </td>
-                <td> 22</td>
             </tr>
            
 
         </tbody>
         <tfoot>
             <tr>
-                <th colspan=" 2">Підсумок: 106</th>
+                <th colspan=" 2"><marquee behavior="alternate"><h1>Островський Максим</h1></marquee></th>
             </tr>
 
         </tfoot>
