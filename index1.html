@@ -15,39 +15,47 @@
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
+        h1 {
+            font-family: Pompadur, 'Comic Sans MS', cursive;
+            color: #FFFAFA;
+        }
         </style>
 </head>
-<body>
+<body bgcolor="#181438">
+
+
+    <center> <h1 text="black"> Заповінть форму</h1></center>
+    <center> <h1> ↓</h1></center>
     <div class="modal">
-    <form action="#">
+        <form action="#">
 
-        <fieldset>
-            <legend>Контактна інформація</legend>
-            <label for="name">Ім'я    </label>
-            <input id="name" type="text"><br>
-            <label for="telephone">Телефон</label>
-            <input id="telephone" type="number"><br>
-            <label for="email">Email </label>
-            <input id="email"><br>
-        </fieldset>
-        <fieldset>
-            <legend>Персональна інформація</legend>
-            <label for="age">Ваш вік</label>
-            <input id="age" type="number"><br>
-            <label for="age">Вкажіть рік та місяць</label>
-            <input type="month"><br>
-            <label for="gender">Стать</label>
-            <select id="gender">
-                <option value="female">Жінка</option>
-                <option value="male">Чоловік</option>
-            </select><br>
+            <fieldset>
+                <legend>Контактна інформація</legend>
+                <label for="name">Ім'я    </label>
+                <input id="name" type="text"><br>
+                <label for="telephone">Телефон</label>
+                <input id="telephone" type="number"><br>
+                <label for="email">Email </label>
+                <input id="email"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Персональна інформація</legend>
+                <label for="age">Ваш вік</label>
+                <input id="age" type="number"><br>
+                <label for="age">Вкажіть рік та місяць</label>
+                <input type="month"><br>
+                <label for="gender">Стать</label>
+                <select id="gender">
+                    <option value="female">Жінка</option>
+                    <option value="male">Чоловік</option>
+                </select><br>
 
-        </fieldset>
+            </fieldset>
 
 
-        <p><input type="submit" value="відправити"></p>
-    </form>
-        </div>
+            <p><input type="submit" value="відправити"></p>
+        </form>
+    </div>
 
 </body>
 </html>
